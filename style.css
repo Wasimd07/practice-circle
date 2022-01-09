@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+.box{
+    position: relative;
+    top: 20%;
+    left: 40%;  
+   }
+.red{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: red;
+    border-radius: 100% 0 0 0;
+}
+.blue{
+    position: relative;
+    float:left;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 0 100% 0 0;
+}
+
+.green{
+    position: relative;
+    clear: both;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 0  0 0 100%;
+}
+.black{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 0 0 100%;
+   display: none;
+}
+ 
